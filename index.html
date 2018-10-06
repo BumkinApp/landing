@@ -20,27 +20,22 @@
 
 <nav class="navbar navbar-expand-lg navbar-dark" id="mainNav">
     <div class="container">
-        <a class="navbar-brand js-scroll-trigger" href="#page-top">Bumkin</a>
-        <!--   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
-                   data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
-                   aria-label="Toggle navigation">Menu
-               <i class="fa fa-bars"></i>
-           </button>-->
-        <!--
-                <div class="collapse navbar-collapse" id="navbarResponsive">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#download">Download</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#features">Features</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
-                        </li>
-                    </ul>
-                </div>
-        -->
+        <a class="navbar-brand js-scroll-trigger" href="./index.html">Bumkin</a>
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse"
+                data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false"
+                aria-label="Toggle navigation">Menu
+            <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="./index.html">Download</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link js-scroll-trigger" href="./privacy.html">Privacy Policy</a>
+                </li>
+            </ul>
+        </div>
     </div>
 </nav>
 
@@ -62,7 +57,7 @@
                         </h1>
                         <div class="col-12 p-0 hi d-flex justify-content-center d-md-block">
                             <img class="badges pr-1" src="./img/app-store-badge.svg" alt="" onclick="test()">
-                            <img class="badges pl-1" src="./img/google-play-badge.svg" alt="">
+                            <img class="badges pl-1" src="./img/google-play-badge.svg" alt="" onclick="test()">
                         </div>
                     </div>
                     <div class="col-sm-4 d-none d-md-block">
@@ -86,27 +81,6 @@
         crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Morphext/2.4.4/morphext.js"
         integrity="sha256-fLSuEVIi2deWE2PUxKLvnE4/aPFktKqI0ItaTMjZ0F0=" crossorigin="anonymous"></script>
-<script>
-    $(function () {
-        $("#js-rotating").Morphext({
-            animation: "bounceIn",
-            separator: ",",
-            speed: 3000,
-            complete: function () {
-                // Called after the entrance animation is executed.
-            }
-        });
-
-         test = () => {
-            new Noty({
-                text: 'Stay Tuned, Bumkin is coming soon',
-                animation: {
-                    open: 'animated bounceInRight', // Animate.css class names
-                    close: 'animated bounceOutRight' // Animate.css class names
-                }
-            }).show();
-        }
-    });
-</script>
+<script src="./app.js"></script>
 </body>
 </html>

@@ -9,6 +9,14 @@ body {
     width: 200px;
 }
 
+.privacy-container{
+    background: white;
+    padding: 100px;
+    border-radius: 5px;
+    opacity: 0.96;
+    margin-bottom: 50px;
+    margin-top: 80px;
+}
 .navbar-brand {
     font-family: 'Catamaran', sans-serif;
     font-size: 30px;
