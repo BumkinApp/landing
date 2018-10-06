@@ -1,0 +1,66 @@
+body {
+    background: url("./img/pattern.png"), linear-gradient(to left, #FFB26D, #D62358);
+    width: 100vw;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.badges {
+    width: 200px;
+}
+
+.navbar-brand {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.mainText {
+    font-family: 'Catamaran', sans-serif;
+    font-size: 50px;
+    line-height: 60px;
+    color: white;
+    letter-spacing: 1px;
+    text-shadow: 0px 0px 6px rgba(0, 0, 0, 0.7);
+}
+
+.join {
+    border-radius: 20px;
+    font-size: 12px;
+    padding: 10px 40px;
+    display: none;
+}
+
+.phone {
+    width: 275px;
+    height: 544px;
+}
+
+.phone-mobile {
+    width: 240px;
+    height: 494px;
+}
+
+.phone-mobile {
+    margin-bottom: 30px;
+}
+
+.main {
+    padding-top: 50px;
+}
+
+@media screen and (min-width: 768px) {
+    .main {
+        padding-top: 200px;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+
+    .badges {
+        width: 150px;
+    }
+}
